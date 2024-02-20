@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#menu {
+    flex: 1;
+}
+
+#cart {
+    flex: 0 0 30%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+#cart h2 {
+    margin-top: 0;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 0.5rem;
+}
+
+#checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
